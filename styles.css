@@ -37,7 +37,7 @@ body {
 
 .bottom-left-text a {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .bottom-left-text a:hover {
