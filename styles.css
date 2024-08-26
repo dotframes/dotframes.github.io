@@ -65,3 +65,36 @@ body {
     color: rgb(255, 255, 255);
     text-decoration-line: none;
 }
+
+@media (max-width: 858px) {
+    .title {
+        font-size: 18vw; /* Adjusted font size for smaller screens */
+        margin-top: -4vw; /* Adjust margin for smaller screens */
+    }
+
+    .bottom-left-text {
+        font-size: 2.5vw; /* Adjusted font size for smaller screens */
+    }
+
+    .bottom-right-text {
+        font-size: 18vw; /* Adjusted font size for smaller screens */
+        right: 1vw; /* Adjust position for smaller screens */
+    }
+}
+
+/* Media query for devices with a maximum width of 480px (mobile devices) */
+@media (max-width: 720px) {
+    .title {
+        font-size: 22vw; /* Further adjusted font size for very small screens */
+        margin-top: -6vw; /* Further adjusted margin for very small screens */
+    }
+
+    .bottom-left-text {
+        font-size: 3.5vw; /* Further adjusted font size for very small screens */
+    }
+
+    .bottom-right-text {
+        font-size: 22vw; /* Further adjusted font size for very small screens */
+        right: 2vw; /* Further adjusted position for very small screens */
+    }
+}
